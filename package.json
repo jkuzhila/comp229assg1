@@ -21,14 +21,14 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
+  "description": "comp229assg1",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
   },
-  "author": "Tom Tsiliopoulos",
+  "author": "james",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
