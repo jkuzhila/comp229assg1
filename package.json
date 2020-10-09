@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "portfolio",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -26,12 +26,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
+    "url": "git+https://github.com/jkuzhila/comp229assg1"
   },
   "author": "james",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
+    "url": "https://github.com/jkuzhila/comp229assg1"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
+  "homepage": "https://github.com/jkuzhila/comp229assg1"
 }
