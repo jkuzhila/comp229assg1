@@ -1,3 +1,5 @@
+/* James Kuzhilaparambil Id:301119040  date 10/09/2020 */
+
 var express = require('express');
 var router = express.Router();
 
@@ -16,9 +18,9 @@ router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About'});
 });
 
-/* GET Products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products'});
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('index', { title: 'Projects'});
 });
 
 /* GET Services page. */
@@ -26,9 +28,9 @@ router.get('/services', function(req, res, next) {
   res.render('index', { title: 'Services'});
 });
 
-/* GET Contact Us page. */
+/* GET Contact me page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact'});
+  res.render('contact', { title: 'Contact',message:'Contact me'});
 });
 
 module.exports = router;
