@@ -1,4 +1,7 @@
 // IIFE -- Immediately Invoked Function Expression
+
+const { event } = require("jquery");
+
 /* James Kuzhilaparambil Id:301119040  date 10/09/2020 */
 (function(){
 
@@ -6,7 +9,21 @@
     {
         console.log("App Started...");
 
-        if(document.title == "Contact")
+        let deleteButtons=document.querySelectorAll('.btn-danger')
+
+        for(button of deleteButtons)
+        {
+            button.addEventListener('click', (event)=>{
+                if (!confirm("Are you sure"))
+                {
+                    event.preventDefault(;
+                        window.location.assign('/book-list'))
+
+                }
+            })
+        }
+
+        /*if(document.title == "Contact")
 
         {
           let sendButton = document.getElementById("sendButton");
@@ -37,7 +54,7 @@
         }
     )
         };
-    }
+    }*/
 }
 
     window.addEventListener("load", Start);
